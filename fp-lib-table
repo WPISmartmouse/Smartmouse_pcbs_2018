@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name Teensy)(type KiCad)(uri "$(KIPRJMOD)/kicad_teensy/Teensy.pretty")(options "")(descr ""))
+  (lib (name mx1a)(type Legacy)(uri "$(KIPRJMOD)/kicad-library/modules/mx1a.mod")(options "")(descr ""))
+  (lib (name drv8833)(type KiCad)(uri "$(KIPRJMOD)/drv8833.pretty")(options "")(descr ""))
+  (lib (name tps82130)(type KiCad)(uri "$(KIPRJMOD)/tps82130.pretty")(options "")(descr ""))
+)
