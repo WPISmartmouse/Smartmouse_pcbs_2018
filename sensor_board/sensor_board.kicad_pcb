@@ -3,7 +3,7 @@
   (general
     (links 7)
     (no_connects 0)
-    (area 99.924999 99.924999 115.275001 113.575001)
+    (area 96.415 99.765 115.275001 116.235)
     (thickness 1.6)
     (drawings 4)
     (tracks 14)
@@ -59,7 +59,7 @@
     (mod_text_size 1 1)
     (mod_text_width 0.15)
     (pad_size 2 2)
-    (pad_drill 1.65)
+    (pad_drill 1.75)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
@@ -219,7 +219,7 @@
     )
   )
 
-  (module sensor_board_custom:1.5mm_mounting_hole (layer F.Cu) (tedit 5AA99DDA) (tstamp 5AA99EBD)
+  (module sensor_board_custom:1.5mm_mounting_hole (layer F.Cu) (tedit 5AA9C061) (tstamp 5AA99EBD)
     (at 102 112.2)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
@@ -231,10 +231,10 @@
     )
     (fp_circle (center 0 0) (end 2 0.8) (layer F.Fab) (width 0.1))
     (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
-    (pad "" np_thru_hole circle (at -0.1 0) (size 2 2) (drill 1.65) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -0.1 0) (size 2 2) (drill 1.75) (layers *.Cu *.Mask))
   )
 
-  (module sensor_board_custom:1.5mm_mounting_hole (layer F.Cu) (tedit 5AA99DDA) (tstamp 5AA99ECC)
+  (module sensor_board_custom:1.5mm_mounting_hole (layer F.Cu) (tedit 5AA9C05D) (tstamp 5AA99ECC)
     (at 105.5 112.2)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
@@ -246,7 +246,7 @@
     )
     (fp_circle (center 0 0) (end 2 0.8) (layer F.Fab) (width 0.1))
     (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
-    (pad "" np_thru_hole circle (at -0.1 0) (size 2 2) (drill 1.65) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -0.1 0) (size 2 2) (drill 1.75) (layers *.Cu *.Mask))
   )
 
   (module "Opto-Devices:LaserDiode_TO5(D9)-3" (layer B.Cu) (tedit 588BCB74) (tstamp 5AA968EA)
