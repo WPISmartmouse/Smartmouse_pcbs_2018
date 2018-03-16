@@ -4,4 +4,5 @@
   (lib (name drv8833)(type KiCad)(uri "$(KIPRJMOD)/drv8833.pretty")(options "")(descr ""))
   (lib (name tps82130)(type KiCad)(uri "$(KIPRJMOD)/tps82130.pretty")(options "")(descr ""))
   (lib (name DRV8833RTYT)(type Legacy)(uri /Users/keionbisland/Downloads/LIB_DRV8833RTYT/DRV8833RTYT/KiCad/DRV8833RTYT.mod)(options "")(descr ""))
+  (lib (name Teensy2)(type KiCad)(uri "$(KIPRJMOD)/kicad_teensy/Teensy.pretty")(options "")(descr ""))
 )
