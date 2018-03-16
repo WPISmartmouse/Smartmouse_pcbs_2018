@@ -13,4 +13,5 @@ _autosave-*
 *.net
 .dsn
 shapes3D
+.DS_Store
 ~$*
