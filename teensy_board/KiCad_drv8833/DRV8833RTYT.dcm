@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV8833RTYT
+D Dual H-Bridge Motor Driver 1.5A WQFN16EP Texas Instruments DRV8833RTYT, Half Bridge Motor Driver, 16-Pin QFN
+K
+F http://www.ti.com/lit/ds/symlink/drv8833.pdf
+$ENDCMP
+#
+#End Doc Library
