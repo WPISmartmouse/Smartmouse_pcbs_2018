@@ -216,9 +216,9 @@
       (net 1 GND))
     (pad 14 smd rect (at -1.9431 -2.794 270) (size 0.4318 1.397) (layers F.Cu F.Paste F.Mask)
       (net 2 "Net-(U1-Pad14)"))
-    (model SMD_Packages.3dshapes/SSOP-14.wrl
+    (model SMD_Packages.3dshapes/TSSOP-14.wrl
       (at (xyz 0 0 0))
-      (scale (xyz 0.254 0.254 0.254))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
