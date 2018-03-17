@@ -32,6 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:motor_drivers
+LIBS:LED
 LIBS:sensors
 LIBS:encoder_board-cache
 EELAYER 25 0
@@ -161,23 +162,23 @@ $EndComp
 $Comp
 L Conn_01x06 J1
 U 1 1 5AAA0E35
-P 4500 3750
-F 0 "J1" H 4500 4050 50  0000 C CNN
-F 1 "Conn_01x06" H 4500 3350 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch1.27mm" H 4500 3750 50  0001 C CNN
-F 3 "" H 4500 3750 50  0001 C CNN
-	1    4500 3750
+P 3950 3750
+F 0 "J1" H 3950 4050 50  0000 C CNN
+F 1 "Conn_01x06" H 3950 3350 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch1.27mm" H 3950 3750 50  0001 C CNN
+F 3 "" H 3950 3750 50  0001 C CNN
+	1    3950 3750
 	-1   0    0    1   
 $EndComp
 $Comp
 L GND #PWR09
 U 1 1 5AAA0FBB
-P 4850 3950
-F 0 "#PWR09" H 4850 3700 50  0001 C CNN
-F 1 "GND" H 4850 3800 50  0000 C CNN
-F 2 "" H 4850 3950 50  0001 C CNN
-F 3 "" H 4850 3950 50  0001 C CNN
-	1    4850 3950
+P 4300 3950
+F 0 "#PWR09" H 4300 3700 50  0001 C CNN
+F 1 "GND" H 4300 3800 50  0000 C CNN
+F 2 "" H 4300 3950 50  0001 C CNN
+F 3 "" H 4300 3950 50  0001 C CNN
+	1    4300 3950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -217,12 +218,12 @@ $EndComp
 $Comp
 L +3.3V #PWR012
 U 1 1 5AAC405B
-P 4850 3450
-F 0 "#PWR012" H 4850 3300 50  0001 C CNN
-F 1 "+3.3V" H 4850 3590 50  0000 C CNN
-F 2 "" H 4850 3450 50  0001 C CNN
-F 3 "" H 4850 3450 50  0001 C CNN
-	1    4850 3450
+P 4300 3450
+F 0 "#PWR012" H 4300 3300 50  0001 C CNN
+F 1 "+3.3V" H 4300 3590 50  0000 C CNN
+F 2 "" H 4300 3450 50  0001 C CNN
+F 3 "" H 4300 3450 50  0001 C CNN
+	1    4300 3450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -230,17 +231,9 @@ Wire Wire Line
 Wire Wire Line
 	5150 3100 5250 3100
 Wire Wire Line
-	4850 3450 4700 3450
+	4300 3450 4150 3450
 Wire Wire Line
-	4850 3950 4700 3950
-Wire Wire Line
-	5200 3550 4700 3550
-Wire Wire Line
-	5200 3650 4700 3650
-Wire Wire Line
-	4700 3750 5200 3750
-Wire Wire Line
-	5200 3850 4700 3850
+	4300 3950 4150 3950
 Wire Wire Line
 	5550 2700 5700 2700
 Wire Wire Line
@@ -255,4 +248,20 @@ Wire Wire Line
 Connection ~ 5700 3100
 Wire Wire Line
 	5800 3100 5800 3250
+Text GLabel 5200 3550 0    60   Input ~ 0
+MOSI
+Text GLabel 5200 3650 0    60   Input ~ 0
+MISO
+Text GLabel 5200 3750 0    60   Input ~ 0
+CLK
+Text GLabel 5200 3850 0    60   Input ~ 0
+CS
+Text GLabel 4150 3850 2    60   Input ~ 0
+CS
+Text GLabel 4150 3750 2    60   Input ~ 0
+CLK
+Text GLabel 4150 3650 2    60   Input ~ 0
+MISO
+Text GLabel 4150 3550 2    60   Input ~ 0
+MOSI
 $EndSCHEMATC
