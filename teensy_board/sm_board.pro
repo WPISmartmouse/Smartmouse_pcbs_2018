@@ -1,4 +1,4 @@
-update=Thursday, March 15, 2018 'PMt' 09:14:53 PM
+update=Sun 18 Mar 2018 12:00:00 EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=kicad_teensy;kicad-library
@@ -75,3 +65,13 @@ LibName33=drv8833
 LibName34=tps82130
 LibName35=/Users/keionbisland/Downloads/teensy_library-master 2/teensy
 LibName36=/Users/keionbisland/Downloads/LIB_DRV8833RTYT/DRV8833RTYT/KiCad/DRV8833RTYT
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

@@ -1,4 +1,4 @@
-update=Thu 15 Mar 2018 01:55:05 EDT
+update=Sun 18 Mar 2018 11:57:12 EDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,13 @@ LibName32=valves
 LibName33=motor_drivers
 LibName34=LED
 LibName35=sensors
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
